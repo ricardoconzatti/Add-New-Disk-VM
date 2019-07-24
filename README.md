@@ -1,4 +1,4 @@
-# Add-New-Disk-VM
+# Add New Disk VM
 
 Este script é bem simples, mas extremamente útil quando precisamos adicionar vários discos em várias máquinas virtuais. Existem alguns casos específicos onde precisamos de
 controladoras de disco com configurações especificas, como é o caso do Failover Cluster com Storage Replica ou Storage Spaces Direct em máquinas virtuais e com este script toda esta configuração fica bem fácil e rápida.
