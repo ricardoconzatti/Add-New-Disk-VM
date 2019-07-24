@@ -4,9 +4,9 @@ Este script é bem simples, mas extremamente útil quando precisamos adicionar v
 controladoras de disco com configurações especificas, como é o caso do Failover Cluster com Storage Replica ou Storage Spaces Direct em máquinas virtuais e com este script toda esta configuração fica bem fácil e rápida.
 
  - **Ações que o Script executa**
-	 - **Seleciona as máquinas virtuais do vCenter Server de 4 formas diferentes**
-		 - Máquinas Virtuais
+	 - **Máquinas Virtuais**
 		 - Cria uma controladora de discos
+		 - Adiciona discos a nova controladora
  - **Compatibilidade**
 	 - vSphere (ESXi e vCenter)
 		 - Testado nas versões 6.0, 6.5 e 6.7
@@ -18,3 +18,4 @@ controladoras de disco com configurações especificas, como é o caso do Failov
 	 - VMware vSphere PowerCLI versão 6 ou superior
 
 [Mais informações](https://solutions4crowds.com.br/script-para-adicionar-discos-em-maquinas-virtuais)
+
